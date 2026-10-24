@@ -1,0 +1,7 @@
+{
+  "appId": "com.dropconvert.app",
+  "appName": "DropConvert",
+  "webDir": "www",
+  "backgroundColor": "#0a0e1f",
+  "server": { "androidScheme": "https" }
+}

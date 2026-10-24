@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="theme-color" content="#0a0e1f">
+<title>DropConvert</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <img class="logo" src="icon.png" alt="">
+  <div class="ht"><h1>DropConvert</h1>
+  <span class="sub">convert &bull; compress &bull; crop &bull; on your phone</span></div>
+</header>
+
+<main id="main">
+  <section class="card" id="filesCard">
+    <h2>Your files</h2>
+    <button class="drop" id="pick" type="button"><b>Tap to add files</b><span>photos, videos, audio, PDFs, Word &amp; text files</span></button>
+    <input type="file" id="file" multiple hidden>
+    <div id="files"></div>
+  </section>
+
+  <section class="card tool" id="work"></section>
+
+  <section id="results"></section>
+  <p class="foot">Everything runs on this phone &mdash; nothing is uploaded anywhere.</p>
+</main>
+
+<div id="prog"><div class="pl"><span id="progLabel">Working…</span><span id="progPct"></span></div><div class="bar"><i id="progBar"></i></div></div>
+<div id="toast"></div>
+<nav id="nav"></nav>
+
+<script src="js/formats.js"></script>
+<script src="js/writers.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/io.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
